@@ -1,0 +1,74 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPcru30KhGyQj99Ndtz0wA41UyMgqCMXq7qR2o1iADoMmpYoFu3rKllcPI16AEGfAIt0Q&usqp=CAU");
+}
+p{
+    padding: 6px;
+    font-weight: 600;
+}
+label{
+    padding: 6px;
+}
+.form_container{
+    background-color: aqua;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.form_control input[type=text],select{
+    width: 90%;
+    padding: 12px 20px;
+    margin:8px 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(230, 226, 221);
+    outline:none;
+    color: rgb(166, 15, 121);
+}
+.form_control input[type=submit]{
+    width: 90%;
+    background-color: rgb(53, 49, 50);
+    padding:14px 20px;
+    margin-top: 10px;
+    cursor:pointer;
+    border: 2px solid bisque;
+    border-radius: 8px;
+    color: aqua;
+}
+.form_control input[type=submit]:hover{
+    background-color: rgb(86, 86, 86);
+}
+.form_control textarea{
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    outline: none;
+    padding: 10px 12px;
+}
+.form_control{
+    
+    margin: 15px;
+}
+.form_control{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+.form_control input[type="radio"],
+.form_control input[type="checkbox"]{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

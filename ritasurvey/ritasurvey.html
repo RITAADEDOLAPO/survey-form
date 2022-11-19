@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ritasurvey</title>
+    <link rel="stylesheet" href="ritasurvey.css">
+</head>
+<body>
+    <div class="form_container">
+        <div class="form_header">
+            <h1>Stutern Feedback Form</h1>
+        </div>
+        <hr>
+        <form>
+            <div class="form_control">
+                <label for="fname"><b>First name</b></label>
+                <input type="text">
+            </div>
+            <div class="form_control">
+                <label for="lname"><b>Last name</b></label>
+                <input type="text">
+            </div>
+            <div class="form_control">
+                <label for="email"><b>Email address</b></label>
+                <input type="text">
+            </div>
+            <div class="form_control">
+                <p>Select your country</p>
+                <select name="country" id="country">
+                    <option value="kenya">Kenya</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="cameroon">Cameroon</option>
+                    <option value="south africa">South Africa</option>
+                </select>
+            </div>
+            <div class="form_control">
+                <p>Select your learning track</p>
+                <select name="learningtrack" id="learningtrack">
+                    <option value="swe">Software Development</option>
+                    <option value="UI/UX">UI/UX</option>
+                    <option value="dse">Data Science</option>
+                </select>
+            </div>
+            <div class="form_control">
+                <p>Gender</p>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+            </div>
+            <div class="form_control">
+                <p>What category do you belong to</p>
+                <input type="radio" id="student" name="category">
+                <label for="student">Student</label><br>
+                <input type="radio" id="employed" name="category">
+                <label for="Employed">Employed</label><br>
+                <input type="radio" id="unemployed" name="category">
+                <label for="Unemployed">Unemployed</label><br>
+                <input type="radio" id="self-employed" name="category">
+                <label for="self-employed">Self-employed</label>
+            </div>
+            <div class="form_control">
+                <p>What have you learnt so far?</p>
+                <input type="checkbox">HTML</input><br>
+                <input type="checkbox">CSS</input><br>
+                <input type="checkbox">Github</input><br>
+                <input type="checkbox">JavaScript</input><br>
+                <input type="checkbox">Python</input>
+            </div>
+            <div class="form_control">
+                <p>Would you recommend Stutern to a friend?</p>
+                <input type="radio" id="yes" name="Would you recommend Stutern to a friend?">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="Would you recommend Stutern to a friend?">
+                <label for="no">No</label>
+            </div>
+            <div class="form_control">
+                <p>What do you think of the programme?</p>
+                <textarea id="" cols="60" rows="3"></textarea>
+            </div>
+            <div class="form_control">
+                <p>Is there any other thing you would like to tell us?</p>
+                <textarea cols="60" rows="3"></textarea>
+            </div>
+            <div class="form_control">
+                <input type="submit" value="submit feedback">
+            </div>
+
+
+
+
+
+
+
+
+
+        </form>
+        
+
+
+
+
+    </div>
+</body>
+</html>
